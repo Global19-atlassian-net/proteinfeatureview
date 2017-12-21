@@ -418,8 +418,8 @@ define(['params', 'colors', 'icons', 'popups'],
       var color = this.param.paired_colors[5].color;
 
       var shortname = name;
-      if (name.indexOf("Structural") > -1) {
-        shortname = "SBKB";
+      if (name.indexOf("Protein Model Portal") > -1) {
+        shortname = "PMP";
       }
 
       if (name === 'UniProtKB') {

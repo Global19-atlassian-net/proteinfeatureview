@@ -90,10 +90,7 @@ The vertical color bar on the left side indicates data provenance.
 
 <div style="border-left:10px solid #e31a1c; padding-bottom: 10px;">
 
-  Data in red indicates combined ranges of Homology Models from
-  <a href="http://www.sbkb.org" target="_new">SBKB
-    <span class='iconSet-main icon-external' title='Link to UniProtKB entry. '>&nbsp;</span>
-  </a> and the
+  Data in red indicates Homology Models from the 
   <a href="http://www.proteinmodelportal.org" target="_new">Protein Model Portal
     <span class='iconSet-main icon-external' title='Link to UniProtKB entry. '>&nbsp;</span>
   </a>

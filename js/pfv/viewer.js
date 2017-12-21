@@ -1664,7 +1664,7 @@ define(['colors', 'draw', 'params', 'icons', 'popups'],
         y = pmpTopY + 40;
         pmpBottomY = y;
       }
-      drawer.drawSourceIndication(svg, 'Structural Biology Knowledge Base', pmpTopY, pmpBottomY);
+      drawer.drawSourceIndication(svg, 'Protein Model Portal', pmpTopY, pmpBottomY);
 
       return y;
 
