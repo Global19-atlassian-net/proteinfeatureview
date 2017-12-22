@@ -888,7 +888,7 @@ define(['colors', 'draw', 'params', 'icons', 'popups'],
     Viewer.prototype.load3DChain = function(pdbID, chainID) {
 
       console.log("loading " + pdbID + " chain ID: " + chainID);
-      window.location = this.rcsbServer + "/pdb/explore/explore.do?structureId=" + pdbID;
+      window.location = this.rcsbServer + "/structure/" + pdbID;
       return;
 
     };

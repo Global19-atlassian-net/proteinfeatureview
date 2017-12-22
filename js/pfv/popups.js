@@ -598,7 +598,7 @@ define(
 
 
 
-      html += '<li><a href="' + this.viewer.rcsbServer + '/pdb/explore/explore.do?structureId=' +
+      html += '<li><a href="' + this.viewer.rcsbServer + '/structure/' +
         pdbID + '">Structure Summary Page for ' + pdbID + '</a></li>';
 
       html += "</ul>";
