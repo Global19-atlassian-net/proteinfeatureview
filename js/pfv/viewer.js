@@ -1625,7 +1625,9 @@ define(['colors', 'draw', 'params', 'icons', 'popups'],
                 'showPMPDialog', data.uniprotID);
             }
 
-            var html = "<h3>" + this.desc + "</h3>";
+            // The string below used to be the value of this.desc, but it was undefined in this case.
+            // I've hard-coded this value to fix it. JD 2018-02-05
+            var html = "<h3>" + "Protein structure predictions" + "</h3>";
 
             html += "<li>View all <a href='" + url +
               "' target='_new'>Homology Models at the Protein Model Portal</a></li>";
